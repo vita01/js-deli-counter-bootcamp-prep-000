@@ -26,4 +26,17 @@ function nowServing(line){
 
 }
 
-function currentLine(){}
+function currentLine(katz){
+  var str="The line is currently: ";
+var len=katz.length;
+if(len==0){
+  return "The line is currently empty.";
+}else{
+ for(var i=0;i<len;i++){
+str+=i+". "+katz[i]+",";
+   
+ }
+  
+}
+  return str;
+}
