@@ -34,7 +34,8 @@ if(len==0){
   return "The line is currently empty.";
 }else{
  for(var i=0;i<len;i++){
-str+=i+". "+katz[i];
+   var n=i+1;
+str+=n+". "+katz[i];
 
  }
 str+=", ";
