@@ -1,13 +1,16 @@
-var katzDeli=[];
+
 var otherDeli;
-function takeANumber(name){
-  katzDeli.push(name);
-  return katzDeli.length+1;
+function takeANumber(katzDeliLine,name){
+  katzDeliLine(name)
+  return  "Welcome, "+name+". You are number "+katzDeli.length+1+" in line." ;
 
 
 }
 
-function katzDeliLine(){}
+function katzDeliLine(name){
+  var katzDeli=[];
+  katzDeli.push(name);
+}
 
 function nowServing(){}
 
