@@ -38,7 +38,7 @@ if(len==0){
 str+=n+". "+katz[i];
 
  }
-str+=", ";
+str+=" , ";
 }
   return str;
 }
