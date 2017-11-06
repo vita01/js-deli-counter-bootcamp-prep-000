@@ -14,13 +14,13 @@ function katzDeliLine(name){
 
 }
 
-function nowServing(){
-  var num=katzDeli.length;
+function nowServing(line){
+  var num=line.length;
   if(num===0){
     return "There is nobody waiting to be served!"
   }
   else{
-    return "Currently serving "+katzDeli[0]+".";
+    return "Currently serving "+line[0]+".";
   }
 
 
