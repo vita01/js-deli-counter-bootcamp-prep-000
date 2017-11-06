@@ -1,7 +1,7 @@
 
 var otherDeli;
-function takeANumber(katzDeliLine,name){
-katzDeliLine=  katzDeliLine(name);
+function takeANumber(name){
+ katzDeliLine(name);
   return  "Welcome, "+name+". You are number "+katzDeli.length+1+" in line." ;
 
 
