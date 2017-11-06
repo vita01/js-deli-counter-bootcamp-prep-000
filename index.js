@@ -35,7 +35,9 @@ if(len==0){
 }else{
  for(var i=0;i<len;i++){
    var n=i+1;
-str+=n+". "+katz[i]+', ';
+   var s=', ';
+   if(i==len-1)s='';
+str+=n+". "+katz[i]+s;
 
  }
 //str+=", ";
