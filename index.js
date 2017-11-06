@@ -3,6 +3,7 @@ var otherDeli;
   var katzDeli=[];
 function takeANumber(name){
   katzDeli.push(name);
+  console.log( "Welcome, "+name+". You are number "+katzDeli.length+1+" in line.")
   return  "Welcome, "+name+". You are number "+katzDeli.length+1+" in line." ;
 
 
