@@ -13,6 +13,16 @@ function katzDeliLine(name){
 
 }
 
-function nowServing(){}
+function nowServing(){
+  var num=katzDeli.length;
+  if(num===0){
+    return "There is nobody waiting to be served!"
+  }
+  else{
+    return "Currently serving "+katzDeli[0]+".";
+  }
+
+
+}
 
 function currentLine(){}
