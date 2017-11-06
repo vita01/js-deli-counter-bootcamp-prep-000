@@ -35,10 +35,10 @@ if(len==0){
 }else{
  for(var i=0;i<len;i++){
    var n=i+1;
-str+=n+". "+katz[i]+' ';
+str+=n+". "+katz[i]+', ';
 
  }
-str+=", ";
+//str+=", ";
 }
   return str;
 }
