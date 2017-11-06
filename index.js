@@ -34,9 +34,9 @@ if(len==0){
 }else{
  for(var i=0;i<len;i++){
 str+=i+". "+katz[i]+",";
-   
+
  }
-  
+
 }
   return str;
 }
