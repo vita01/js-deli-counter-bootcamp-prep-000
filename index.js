@@ -29,7 +29,7 @@ function nowServing(line){
 function currentLine(katz){
   var str="The line is currently: ";
 var len=katz.length;
-var
+
 if(len==0){
   return "The line is currently empty.";
 }else{
